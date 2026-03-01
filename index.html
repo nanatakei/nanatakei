@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nana Takei | UI/UX Designer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <svg aria-hidden="true" width="0" height="0" style="position:absolute;width:0;height:0;overflow:hidden">
+        <symbol id="icon-arrow-up-right" viewBox="0 0 28 28">
+            <path d="M7.46671 21L5.83337 19.3667L17.0334 8.16667H7.00004V5.83333H21V19.8333H18.6667V9.8L7.46671 21Z"
+                fill="currentColor" />
+        </symbol>
+    </svg>
+    <header>
+        <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+        <nav id="main-nav">
+            <a href="#work" data-i18n="nav-work">Work</a>
+            <a href="#about" data-i18n="nav-about">About</a>
+            <a href="https://docs.google.com/document/d/1T9IFOlQRINeuwIUDjbY3lc1bsi-PQBgnReC0mxgFZa0/edit?usp=sharing"
+                data-i18n="nav-resume" target="_blank">Resume</a>
+            <a href="mailto:nanatakei10@gmail.com" class="contact-link" data-i18n="nav-contact">
+                Contact me
+                <svg class="icon icon--accent icon--arrow" role="img" aria-hidden="true">
+                    <use href="#icon-arrow-up-right"></use>
+                </svg>
+            </a>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>N<span class="accent">a</span>na<br class="spno">T<span class="text-gray">a</span>kei</h1>
+                    <p class="subtitle" data-i18n="hero-sub">Freelance UI/UX Designer based in Canada.<br>I design
+                        thoughtful, user-centered digital experiences.</p>
+                </div>
+                <div class="hero-image">
+                    <img src="images/prof01.png" alt="Nana Takei">
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work-grid">
+            <article class="project-card" onclick="window.location.href='circle-up.html'">
+                <div class="project-thumbnail">
+                    <img src="images/case01.png" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span data-i18n="project-cat">UIUX Design • Project Leader</span>
+                        <svg class="icon icon--accent icon--arrow" role="img" aria-hidden="true">
+                            <use href="#icon-arrow-up-right"></use>
+                        </svg>
+                    </div>
+                    <h2 data-i18n="project1-title">Circle Up – Rebuilding Culture in Remote Workspaces</h2>
+                    <p data-i18n="project1-desc">A platform to make remote work more human, encouraging spontaneous
+                        interactions, shared rituals, and team bonding.</p>
+                </div>
+            </article>
+
+            <article class="project-card" onclick="window.location.href='grammy.html'">
+                <div class="project-thumbnail">
+                    <img src="images/case02.png" alt="Grammy 2020">
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span data-i18n="project-cat">UIUX Design • Cording</span>
+                        <svg class="icon icon--accent icon--arrow" role="img" aria-hidden="true">
+                            <use href="#icon-arrow-up-right"></use>
+                        </svg>
+                    </div>
+                    <h2 data-i18n="project2-title">2020 Grammy Nominees – UI Concept</h2>
+                    <p data-i18n="project2-desc">A card-style redesign inspired by the album’s vibrant visuals, blending
+                        playful energy with a clean, app-like interface.</p>
+                </div>
+            </article>
+            <article class="project-card" onclick="window.location.href='frederique-constant.html'">
+                <div class="project-thumbnail">
+                    <img src="images/case03.png" alt="Grammy 2020">
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span data-i18n="project-cat">UIUX Design</span>
+                        <svg class="icon icon--accent icon--arrow" role="img" aria-hidden="true">
+                            <use href="#icon-arrow-up-right"></use>
+                        </svg>
+                    </div>
+                    <h2 data-i18n="project3-title">Frederique Constant Watches – E-Commerce Website Redesign</h2>
+                    <p data-i18n="project3-desc">Redesigned the Frederique Constant online store to enhance luxury
+                        appeal and improve user experience across devices, aligning the visual language with the brand’s
+                        Swiss heritage.</p>
+                </div>
+            </article>
+            <article class="project-card" onclick="window.location.href='kiyoken.html'">
+                <div class="project-thumbnail">
+                    <img src="images/case04.png" alt="Kiyoken Online Shop">
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span data-i18n="project-cat">UIUX Design</span>
+                        <svg class="icon icon--accent icon--arrow" role="img" aria-hidden="true">
+                            <use href="#icon-arrow-up-right"></use>
+                        </svg>
+                    </div>
+                    <h2 data-i18n="project3-title">Kiyoken Online Shop – Mobile Redesign</h2>
+                    <p data-i18n="project3-desc">Redesigned the desktop site for mobile responsiveness, introducing a
+                        progress tracker and simplified single-page product layouts. Refined cart interactions with
+                        clear, tappable buttons inspired by Uniqlo’s app UI to improve the shopping experience.</p>
+                </div>
+            </article>
+
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-flex">
+                <div class="about-portrait">
+                    <img src="images/prof03.png" alt="Nana Takei Portrait">
+                </div>
+                <div class="about-text">
+                    <h3 data-i18n="about-title">Hi, I'm Nana Takei — a UI/UX and Web Designer based in Vancouver.</h3>
+                    <p data-i18n="about-p1">With over 6 years of experience in web design and PR strategy, I specialize
+                        in creating user-centered, brand-consistent digital experiences across various industries. My
+                        background in public relations helps me craft designs that not only look great but also
+                        communicate effectively and drive engagement.</p>
+                    <p data-i18n="about-p2">Before moving to Canada, I worked with agencies and global brands in Japan,
+                        leading design projects for e-commerce, tourism, and marketing campaigns.</p>
+                    <p data-i18n="about-p2">I'm passionate about blending strategy, empathy, and aesthetics to build
+                        experiences that make people’s lives a little easier — and a little more delightful.</p>
+                </div>
+                <div class="skills-container">
+                    <h4 data-i18n="skills-title">Hats I wear</h4>
+                    <div class="tags">
+                        <span class="tag">UI Design</span>
+                        <span class="tag">HTML / CSS</span>
+                        <span class="tag">UX flows</span>
+                        <span class="tag">Wireframing</span>
+                        <span class="tag">Prototyping</span>
+                        <span class="tag">Leadership</span>
+                        <span class="tag">UX Testing</span>
+                        <span class="tag">UX Research</span>
+                        <span class="tag">Accessibility</span>
+                        <span class="tag">Design Research</span>
+                        <span class="tag">Engineering Handover</span>
+                        <span class="tag">Figma</span>
+                        <span class="tag">Photoshop</span>
+                        <span class="tag">XD</span>
+                        <span class="tag">AfterEffects</span>
+                        <span class="tag">Illustrator</span>
+                        <span class="tag">Javascript</span>
+                        <span class="tag">Web Design</span>
+                        <span class="tag">UX Strategy</span>
+                        <!-- <span class="tag">Information Architecture</span> -->
+                        <!-- <span class="tag">E-commerce</span> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">6<span class="stat-symbol stat-plus">+</span></span>
+                    <p data-i18n="stat-1">Years<br>Designing for global & startup brands</p>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">60<span class="stat-symbol stat-plus">+</span></span>
+                    <p data-i18n="stat-2">Projects<br>E-commerce & campaigns</p>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">15<span class="stat-symbol stat-percent">%</span></span>
+                    <p data-i18n="stat-3">CTR Improvement<br>Brand & creatives</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="clients">
+            <p class="section-label" data-i18n="clients-label">I've worked with the likes of</p>
+            <div class="logo-marquee-wrapper">
+                <div class="logo-marquee">
+                    <!-- Original set -->
+                    <div class="logo-marquee-track">
+                        <img src="images/cl01.png" alt="JR">
+                        <img src="images/cl02.png" alt="KATE">
+                        <img src="images/cl03.png" alt="CITIZEN">
+                        <img src="images/cl04.png" alt="泰陽社">
+                        <img src="images/cl05.png" alt="近畿日本ツーリスト">
+                        <img src="images/cl06.png" alt="Client 6">
+                        <img src="images/cl07.png" alt="Client 7">
+                        <img src="images/cl08.png" alt="Client 8">
+                        <img src="images/cl09.png" alt="Client 9">
+                        <img src="images/cl10.png" alt="Client 10">
+                        <img src="images/cl11.png" alt="Client 11">
+                    </div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="logo-marquee-track" aria-hidden="true">
+                        <img src="images/cl01.png" alt="">
+                        <img src="images/cl02.png" alt="">
+                        <img src="images/cl03.png" alt="">
+                        <img src="images/cl04.png" alt="">
+                        <img src="images/cl05.png" alt="">
+                        <img src="images/cl06.png" alt="">
+                        <img src="images/cl07.png" alt="">
+                        <img src="images/cl08.png" alt="">
+                        <img src="images/cl09.png" alt="">
+                        <img src="images/cl10.png" alt="">
+                        <img src="images/cl11.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="contact-grid">
+                <div class="contact-question">
+                    <h2 data-i18n="contact-h2">What can I<br class="spno"> help you with?</h2>
+                </div>
+                <div class="contact-links">
+                    <a href="mailto:nanatakei10@gmail.com" class="email-link">nanatakei10@gmail.com
+                        <svg class="icon icon--accent icon--arrow" role="img" aria-hidden="true">
+                            <use href="#icon-arrow-up-right"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="resume-link" data-i18n="view-resume">View Resume
+                        <svg class="icon icon--accent icon--arrow" role="img" aria-hidden="true">
+                            <use href="#icon-arrow-up-right"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <h2 data-i18n="footer-thanks">Thank you for stopping by</h2>
+            <div class="footer-nav">
+                <a href="mailto:nanatakei10@gmail.com" data-i18n="footer-contact">Contact me
+                    <svg class="icon icon--accent icon--arrow" role="img" aria-hidden="true">
+                        <use href="#icon-arrow-up-right"></use>
+                    </svg>
+                </a>
+                <a href="#" data-i18n="footer-resume">Resume
+                    <svg class="icon icon--accent icon--arrow" role="img" aria-hidden="true">
+                        <use href="#icon-arrow-up-right"></use>
+                    </svg>
+                </a>
+                <a href="#" data-i18n="footer-linkedin">LinkedIn
+                    <svg class="icon icon--accent icon--arrow" role="img" aria-hidden="true">
+                        <use href="#icon-arrow-up-right"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2025 Nana Takei. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        // 将来的な翻訳データ
+        const translations = {
+            en: {
+                "nav-work": "Work",
+                "nav-about": "About",
+                "nav-resume": "Resume",
+                "nav-contact": "Contact me",
+                "hero-sub": "Freelance UI/UX Designer based in Canada. I design thoughtful, user-centered digital experiences.",
+                "project-cat": "Design • Coding",
+                "about-title": "Hi, I'm Nana Takei — a UI/UX and Web Designer based in Vancouver.",
+                "view-resume": "View Resume",
+                "footer-thanks": "Thank you for stopping by"
+                // ...他のキーも追加
+            },
+            ja: {
+                "nav-work": "制作実績",
+                "nav-about": "私について",
+                "nav-resume": "履歴書",
+                "nav-contact": "お問い合わせ",
+                "hero-sub": "カナダを拠点に活動するフリーランスUI/UXデザイナー。思いやりのある、ユーザー中心のデジタル体験をデザインします。",
+                "project-cat": "デザイン • コーディング",
+                "about-title": "こんにちは、武井菜々です。バンクーバーを拠点にするUI/UX・Webデザイナーです。",
+                "view-resume": "履歴書を見る",
+                "footer-thanks": "お立ち寄りいただきありがとうございます"
+                // ...他のキーも追加
+            }
+        };
+
+        function switchLang(lang) {
+            document.documentElement.lang = lang;
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (translations[lang][key]) {
+                    el.textContent = translations[lang][key];
+                }
+            });
+        }
+
+        // Mobile hamburger menu
+        const hamburger = document.getElementById('hamburger');
+        const mainNav = document.getElementById('main-nav');
+
+        hamburger.addEventListener('click', () => {
+            const isOpen = mainNav.classList.toggle('nav--open');
+            hamburger.classList.toggle('hamburger--open', isOpen);
+            hamburger.setAttribute('aria-expanded', isOpen);
+        });
+
+        // Close nav when a link inside is clicked
+        mainNav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mainNav.classList.remove('nav--open');
+                hamburger.classList.remove('hamburger--open');
+                hamburger.setAttribute('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+
+</html>

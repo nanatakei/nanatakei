@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2020 Grammy Nominees | Nana Takei</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Shared Case Study Styles */
+        .case-study-hero {
+            padding: 120px 4% 80px;
+            max-width: 1080px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .cs-hero-img img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        .cs-hero-title {
+            font-size: var(--size-Heading-2);
+            font-family: var(--family-Font-EN-title);
+            margin-bottom: 20px;
+            color: var(--primary-500);
+        }
+
+        .cs-hero-desc {
+            font-size: var(--size-M);
+            margin-bottom: 40px;
+            color: var(--secondary-1000);
+            line-height: 1.6;
+        }
+
+        .cs-meta-grid {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            gap: 15px 20px;
+            font-size: var(--size-S);
+        }
+
+        .cs-meta-label {
+            font-weight: 700;
+            color: var(--primary-500);
+        }
+
+        .cs-meta-value {
+            font-weight: 400;
+            color: var(--secondary-1000);
+        }
+
+        .cs-section {
+            padding: 60px 4%;
+            max-width: 1080px;
+            margin: 0 auto;
+        }
+
+        .cs-heading {
+            color: var(--accent);
+            font-family: var(--family-Font-EN-body);
+            font-size: var(--size-L);
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-transform: capitalize;
+        }
+
+        .cs-text {
+            font-size: var(--size-M);
+            margin-bottom: 40px;
+            max-width: 800px;
+            color: var(--secondary-1000);
+        }
+
+        .cs-image-box {
+            width: 100%;
+            min-height: 400px;
+            background-color: #f0f0f0;
+            border: 2px dashed #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #888;
+            font-family: var(--family-Font-EN-body);
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .cs-image-box img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: none;
+            /* Hidden by default until image exists */
+        }
+
+        @media (max-width: 768px) {
+            .case-study-hero {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="images/logo.png" alt="Nana Takei"></a>
+        <nav>
+            <a href="index.html#work">Work</a>
+            <a href="index.html#about">About</a>
+            <a href="#" target="_blank">Resume</a>
+            <a href="mailto:nanatakei10@gmail.com" class="contact-link">Contact me</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="case-study-hero">
+            <div class="cs-hero-img">
+                <div class="cs-image-box">
+                    <img src="images/grammy-hero.png" alt="Grammy Hero"
+                        onerror="this.style.display='none'; this.parentNode.innerHTML='Save image as images/grammy-hero.png'">
+                </div>
+            </div>
+            <div class="cs-hero-info">
+                <h1 class="cs-hero-title">2020 Grammy Nominees</h1>
+                <p class="cs-hero-desc">A card-style redesign inspired by the album’s vibrant visuals, blending playful
+                    energy with a clean, app-like interface.</p>
+
+                <div class="cs-meta-grid">
+                    <div class="cs-meta-label">Role</div>
+                    <div class="cs-meta-value">UI/UX Designer, Front-end Developer</div>
+                    <div class="cs-meta-label">Tools</div>
+                    <div class="cs-meta-value">Figma, HTML, CSS, JavaScript</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Template Section 1 -->
+        <section class="cs-section">
+            <h2 class="cs-heading">Design Concept</h2>
+            <div class="cs-text">
+                <p>Describe your design concept and approach here. You can add more text paragraphs as needed to explain
+                    your thought process and the problems you solved.</p>
+            </div>
+            <div class="cs-image-box" style="min-height: 600px;">
+                <img src="images/grammy-concept.png" alt="Grammy Concept"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='Save image as images/grammy-concept.png'">
+            </div>
+        </section>
+
+        <!-- Template Section 2 -->
+        <section class="cs-section" style="padding-bottom: 120px;">
+            <h2 class="cs-heading">Final Design</h2>
+            <div class="cs-text">
+                <p>Showcase the final polished designs, interactions, or responsive layouts.</p>
+            </div>
+            <div class="cs-image-box" style="min-height: 800px;">
+                <img src="images/grammy-final.png" alt="Grammy Final Design"
+                    onerror="this.style.display='none'; this.parentNode.innerHTML='Save image as images/grammy-final.png'">
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <h2>Thank you for<br>stopping by</h2>
+            <div class="footer-nav">
+                <a href="mailto:nanatakei10@gmail.com">Contact me ↗</a>
+                <a href="#">Resume ↗</a>
+                <a href="#">LinkedIn ↗</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/modal.js"></script>
+</body>
+
+</html>
